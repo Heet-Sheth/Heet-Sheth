@@ -1,0 +1,206 @@
+body {
+  margin: 0;
+  padding: 0;
+  top: 0px !important;
+}
+/* Features slider start */
+.feature-box {
+  border-radius: 16px;
+  border: 1.066px solid var(--grey-shades-grey-shade-1, #f7f7f7);
+  background: var(--basic-colors-pure-white, #fff);
+  box-shadow: 0px 38px 42px -21px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+}
+.features-box-spacing {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -15px;
+  overflow: hidden;
+}
+
+.feature-box {
+  flex: 0 0 calc(33.333% - 30px);
+  margin: 0 15px;
+  box-sizing: border-box;
+}
+
+.feature-box img {
+  max-width: 100%;
+  height: auto;
+}
+.feature-box img {
+  margin: 0 auto 20px auto;
+}
+.feature-box h6 {
+  margin-bottom: 8px;
+  color: var(--green-shades-green-shade-6, #293c32);
+  /* font-family: Red Hat Display; */
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.feature-box p {
+  color: var(--grey-shades-grey-shade-4, #878787);
+  /* Captions/Caption 14 Regular */
+  /* font-family: Red Hat Display; */
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.jak-tod-ziata-box {
+  border-radius: 24px;
+  border: 1.066px solid var(--grey-shades-grey-shade-1, #f7f7f7);
+  background: var(--green-shades-green-shade-1, #edf4ea);
+  padding: 40px;
+  height: 100%;
+}
+.jak-tod-ziata-box .head h3 {
+  color: var(--basic-colors-pure-white, #fff);
+  /* text-align: center; */
+  /* font-family: Red Hat Display; */
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  /* line-height: 106.5%;  */
+  letter-spacing: -1.6px;
+}
+.jak-tod-ziata-box .head h6 {
+  color: var(--basic-colors-pure-black, #000);
+  /* font-feature-settings: 'clig' off, 'liga' off; */
+  /* font-family: Red Hat Display; */
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  min-height: 176px;
+display: flex;
+align-items: end;
+}
+.jak-tod-ziata-box .head p {
+  color: var(--green-shades-green-shade-6, #293c32);
+  /* font-feature-settings: 'clig' off, 'liga' off; */
+  /* font-family: Red Hat Display; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+  margin-top: auto;
+}
+.daily-plan-text h6{
+  color: var(--grey-shades-grey-shade-3, #CBCBCB);
+/* font-family: Red Hat Display; */
+font-size: 65px;
+font-style: normal;
+font-weight: 900;
+letter-spacing: -1.3px;
+word-break: break-all;
+max-width: 555px;
+}
+.daily-plan-text span{
+  color: var(--tint-colors-brand-green, #8FBD12);
+  /* font-family: Red Hat Display; */
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112%;
+  letter-spacing: -1.3px;
+}
+.daily-plan-content{
+  display: flex;
+  align-items: center;
+}
+.daily-plan-text span{
+  color: var(--tint-colors-brand-green, #8FBD12);
+  /* font-family: Red Hat Display; */
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 112%;
+  letter-spacing: -1.3px;
+}
+.daily-plan-text p{
+color: var(--grey-shades-grey-shade-4, #878787);
+/* font-feature-settings: 'clig' off, 'liga' off; */
+/* font-family: Red Hat Display; */
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 38px; /* 211.111% */
+max-width: 500px;
+}
+.daily-plan-flex{
+  display: flex;
+}
+.daily-plan-content.slick-slide{
+  display: flex !important;
+}
+.daily-plan button.slick-prev.slick-arrow{
+background-image: url(../images/previous.png) !important;
+padding: 60px;
+background-repeat: no-repeat;
+}
+.daily-plan button.slick-next.slick-arrow{
+  background-image: url(../images/next.png) !important;
+padding: 60px;
+background-repeat: no-repeat;
+}
+.daily-plan-content-img{
+  width: 38%;
+}
+.daily-plan-text{
+  width: 62%;
+}
+.daily-plan-content-img img{
+  max-height: 720px;
+height: 100%;
+}
+.daily-plan .slick-next:before{
+  content:none !important;
+}
+.daily-plan .slick-prev:before{
+  content:none !important;
+}
+.app-images-flex{
+  display: flex;
+  /* width: 80%;
+  margin: auto; */
+  overflow: hidden;
+}
+.apps-images img{
+  max-width: 100%;
+  height: auto;
+}
+.apps-images {
+  margin-right: 10px; /* Adjust the value as needed */
+}
+
+/* Optional: To remove the right margin from the last image */
+.apps-images:last-child {
+  margin-right: 0;
+}
+
+.problems{
+  display: flex !important;
+margin-right: 10px !important ;
+}
+.problems-solve p{
+  color: var(--grey-shades-grey-shade-4, #878787);
+/* font-family: Red Hat Display; */
+font-size: 44px;
+font-style: normal;
+font-weight: 700;
+letter-spacing: -1.32px;
+border-radius: 43px;
+background: var(--grey-shades-grey-shade-1, #F7F7F7);
+padding: 28px 40px;
+
+}
+.problems-solve{
+  margin-right: 20px;
+}
+.skiptranslate{
+  display: none;
+}

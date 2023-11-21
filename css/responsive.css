@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 991px) {
+  .Jak-tod-ziata .jak-tod-ziata-md-box {
+    overflow-x: scroll;
+    padding-bottom: 30px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .Jak-tod-ziata .jak-tod-ziata-md-box {
+    overflow-x: scroll;
+    padding-bottom: 30px;
+    max-width: 720px;
+    margin: 0 auto;
+  }
+  .Jak-tod-ziata .container .jak-tod-ziata-md-box .row {
+    width: 991px;
+  }
+}
+@media (max-width: 575px) {
+
+.slick-slide img{
+  max-width: 100%;
+  height: auto;
+}
+.daily-plan-text h6{
+  word-break: break-all;
+}
+.daily-plan-content.slick-slide{
+  flex-direction: column;
+}
+.daily-plan-content-img{
+  width: 100%;
+}
+.daily-plan-text{
+  width: 100%;
+}
+}
